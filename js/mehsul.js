@@ -98,6 +98,41 @@ $(document).ready(function(){
 	          }
         });   
     }); 
+
+
+    //yukleme prosesi
+    $(".yukle").click(function(){
+    	
+		
+		var ad = $('input[name=ad]').val();
+		var miqdar = $('input[name=miqdar]').val();
+		var olcuvahidi = $('select[name=olcuvahidi]').val();
+		var mayadeyeri = $('input[name=mayadeyeri]').val();
+		var satisqiymeti = $('input[name=satisqiymeti]').val();		
+		
+		var data = "ad="+ad+"&miqdar="+miqdar+"&olcuvahidi="+olcuvahidi+
+		"&mayadeyeri="+mayadeyeri+"&satisqiymeti="+satisqiymeti;        
+	    $.ajax({
+	       type: "post",
+	       url:   "ajaxs/yenimehsulajx.php",
+	       data: data, 
+	       // beforeSend: function(){                 
+	       //    	 
+	       //    	},
+	       success: function(result){ 
+	      		$('tbody').prepend(result);
+	      		$('tbody tr:first-child').hide();
+	      		$('tbody tr:first-child').show(800);
+
+	      		$('input[name=ad]').val('');
+				$('input[name=miqdar]').val('');
+				$('select[name=olcuvahidi]').val('');
+				$('input[name=mayadeyeri]').val('');
+				$('input[name=satisqiymeti]').val('');
+	         }
+	    });
+	});
+
         
 
 });
