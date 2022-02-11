@@ -129,6 +129,7 @@ $(document).ready(function(){
 				$('select[name=olcuvahidi]').val('');
 				$('input[name=mayadeyeri]').val('');
 				$('input[name=satisqiymeti]').val('');
+				$('input[name=ad]').focus();
 	         }
 	    });
 	});
