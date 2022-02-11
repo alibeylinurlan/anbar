@@ -1,0 +1,44 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a, a:link, a:hover, a:visited, a:active {text-decoration: none;}
+.topBar {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 0px 0px 10px grey;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	background-color: white;
+}
+
+.mybtn {
+	padding: 4px;
+	padding-inline: 15px;
+	background-color: #eee;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 7px #eee;
+	transition: 0.1s;
+}
+.mybtn:hover {
+	background-color: #2E4053;
+}
+.mybtn:active {
+	background-color: #1B2631;
+	perspective: 100px;
+	transform-style: preserve-3d;
+	transform: rotateX(30deg);
+	box-shadow: 3px 3px 10px #BDC3C7;
+	
+}
+.wht {
+	color: white;
+}
+.bggrey {
+	background-color: #566573;
+}

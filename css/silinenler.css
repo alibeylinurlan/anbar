@@ -1,0 +1,72 @@
+body {
+	background-color: #F4F6F6;
+}
+.user {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	height: 100vh;
+	padding: 5px;
+}
+
+.user div {
+	padding: 15px;
+	width: 100%;
+	background-color: dodgerblue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #D7DBDD;
+	margin-bottom: 15px;
+	color: white;
+}
+.user span {
+	font-size: 25px;
+	font-weight: bold;
+
+}
+.user-icons i {
+	font-size: 14px;
+	color: white;
+}
+
+.user h2{
+	margin: 0px;
+	color: #F9E79F;
+	font-style: italic;
+}
+
+.mehsullar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 80%;
+	height: 100vh;
+	padding: 5px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0px 0px 10px #D7DBDD;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+td, th {
+  border: 1px solid #eee;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #EE7A62;
+  color: white;
+}
+/*tr:nth-child(2) {
+  background-color: #dddddd;
+}*/
+
+.mehsulad1{
+  background-color: white;
+}

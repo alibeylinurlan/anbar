@@ -1,0 +1,2 @@
+
+database açin, sql file nı yükləyin və config.php dən qurasdirin

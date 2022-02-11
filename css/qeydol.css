@@ -1,0 +1,15 @@
+
+.form {
+	max-width: 600px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px;
+
+}
+.eye {
+	float: right;font-size: 20px;
+	margin-top: -30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+

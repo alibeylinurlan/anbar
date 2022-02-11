@@ -1,0 +1,177 @@
+body {
+	background-color: #F4F6F6;
+}
+.user {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	height: 100vh;
+	padding: 5px;
+}
+
+.user div {
+	padding: 15px;
+	width: 100%;
+	background-color: dodgerblue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #D7DBDD;
+	margin-bottom: 15px;
+	color: white;
+}
+.user span {
+	font-size: 25px;
+	font-weight: bold;
+
+}
+.user-icons i {
+	font-size: 14px;
+	color: white;
+}
+
+.user h2{
+	margin: 0px;
+	color: #F9E79F;
+	font-style: italic;
+}
+
+.mehsullar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 80%;
+	height: 100vh;
+	padding: 5px;
+}
+
+.otherheader {
+	width: 100%;
+	background-color: #CACFD2;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 12px;
+	box-shadow: 5px 5px 10px #D7DBDD;
+	font-weight: bold;
+	position: sticky;
+  top: 0;
+}
+.col-lg-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+	
+}
+.plusdiv {
+	
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	border-radius: 7px;
+	background-color: orange;
+	padding: 15px;
+	color: white;
+	border-radius: 50px;
+	margin-top: 0px;
+	left: 20px;
+	transition: 0.3s;
+	box-shadow: 5px 5px 10px #D7DBDD;
+}
+
+::placeholder {
+	font-style: italic;
+	font-weight: normal;
+}
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  box-shadow: 0px 0px 10px #D7DBDD;
+  border-radius: 15px;
+  margin-bottom: 30px;
+
+}
+
+td, th {
+  border: 1px solid #eee;
+
+  padding: 8px;
+}
+
+thead {
+  background-color: blue;
+  color: white;
+  position: sticky;
+  top: -6px;
+}
+ thead tr th:first-child {
+ 	border-top-left-radius: 12px;
+ }
+
+ thead tr th:last-child {
+ 	border-top-right-radius: 12px;
+ }
+
+.silinenbtn {
+	float: right;
+	border-radius: 8px;
+	margin-top: -5px;
+}
+
+.tr1{
+  background-color: white;
+}
+
+td .form-control {
+	padding-inline: 3px;
+}
+
+.mehsullar {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+tbody tr:last-child td:first-child {
+ 	border-bottom-left-radius: 12px;
+ }
+
+tbody tr:last-child td:last-child {
+ 	border-bottom-right-radius: 12px;
+ }
+
+ #axtar {
+ 	width: 100%;
+ 	height: 24px;
+ 	margin: 0px;
+ 	border: none;
+ 	outline: none;
+ 	border-radius: 3px;
+ 	font-size: 16px;
+ 	padding-left: 7px;
+ }
+
+ #gelen {
+ 	padding: 5px;
+ 	width:100%;
+ 	height: 150px; 
+ 	margin-top: 10px;
+ 	border-radius: 10px;
+ 	background-color:white;
+ 	padding: 5px;
+ 	overflow-y: auto;
+ 	overflow-x: hidden;
+ }
+ .bagla {
+ 	position: absolute;
+ 	right:12px;
+ 	margin-top: -22px;
+ 	cursor: pointer;
+ 	background-color: grey;
+ 	padding-inline: 7px;
+ 	color: white;
+ 	font-weight: normal;
+ 	border-radius: 3px;
+ }
