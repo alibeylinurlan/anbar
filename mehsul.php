@@ -96,7 +96,7 @@
 						</div>
 						<div class="col-lg-2">
 							<select name="olcuvahidi" required class="form-control">
-			  					<option value="ədəd">ədəd</option>
+			  					<option value="ədəd" selected>ədəd</option>
 			  					<option value="kq">kq</option>
 			  					<option value="litr">litr</option>
 			  					<option value="metr">metr</option>
