@@ -88,31 +88,29 @@
 			<div class="col-lg-12 yeni" style="display: none;"> 
 				<div class="otherheader">
 					<div class="row">
-						<form action="posts/yenimehsul.php" method="post">
-							<div class="col-lg-2">
-								<input type="text" id="ad" name="ad" placeholder="Məhsulun adı" required class="form-control">
-							</div>
-							<div class="col-lg-2">
-								<input type="number" step="0.01" name="miqdar" placeholder="Miqdarı" required class="form-control">
-							</div>
-							<div class="col-lg-2">
-								<select name="olcuvahidi" required class="form-control">
-				  					<option value="ədəd">ədəd</option>
-				  					<option value="kq">kq</option>
-				  					<option value="litr">litr</option>
-				  					<option value="metr">metr</option>
-				  				</select>
-							</div>
-							<div class="col-lg-2">
-								<input type="number" step="0.01" name="mayadeyeri" placeholder="Maya dəyəri" required class="form-control">
-							</div>
-							<div class="col-lg-2">
-								<input type="number" step="0.01" name="satisqiymeti" placeholder="Satış qiyməti" required class="form-control">
-							</div>
-							<div class="col-lg-2">
-								<input type="submit" value="Əlavə et" class="btn btn-success">
-							</div>
-						</form>
+						<div class="col-lg-2">
+							<input type="text" id="ad" name="ad" placeholder="Məhsulun adı" required class="form-control">
+						</div>
+						<div class="col-lg-2">
+							<input type="number" step="0.01" name="miqdar" placeholder="Miqdarı" required class="form-control">
+						</div>
+						<div class="col-lg-2">
+							<select name="olcuvahidi" required class="form-control">
+			  					<option value="ədəd">ədəd</option>
+			  					<option value="kq">kq</option>
+			  					<option value="litr">litr</option>
+			  					<option value="metr">metr</option>
+			  				</select>
+						</div>
+						<div class="col-lg-2">
+							<input type="number" step="0.01" name="mayadeyeri" placeholder="Maya dəyəri" required class="form-control">
+						</div>
+						<div class="col-lg-2">
+							<input type="number" step="0.01" name="satisqiymeti" placeholder="Satış qiyməti" required class="form-control">
+						</div>
+						<div class="col-lg-2">
+							<input type="submit" value="Əlavə et" class="btn btn-success yukle">
+						</div>
 					</div>
 				</div>
 			</div>
