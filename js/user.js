@@ -10,4 +10,24 @@ $(document).ready(function(){
 		$('.fa-eye').fadeIn();
 		$('.password').prop({type:"password"});
 	});
+
+	//parol deyisme prosesi ajaxla
+	$(".tesdiq").click(function(){
+		
+		var evvelki = $('.evvel').val();
+		var yeni = $('.yeni').val();
+		
+		var data = "evvelki="+evvelki+"&yeni="+yeni;        
+	    $.ajax({
+	       type: "post",
+	       url:   "ajaxs/paroldeyisajx.php",
+	       data: data, 
+	       // beforeSend: function(){                 
+	       //    	 
+	       //    	},
+	       success: function(result){ 
+	      		 $(".notifi").html(result);
+	         }
+	    });
+	});
 });

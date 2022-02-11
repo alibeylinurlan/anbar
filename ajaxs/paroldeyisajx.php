@@ -1,11 +1,10 @@
 <?php 
 
-session_start();
-
 if ($_POST) {
+	session_start();
 	$id = $_SESSION['userid'];
-	$evvelki = base64_encode(trim($_POST["evvelki"]));
-	$yeni = base64_encode(trim($_POST["yeni"]));
+	$evvelki = base64_encode(trim(@$_POST["evvelki"]));
+	$yeni = base64_encode(trim(@$_POST["yeni"]));
 
 	include '../config.php';
 	$v=$db->prepare("select * from users where id=? and password=?");
@@ -19,11 +18,10 @@ if ($_POST) {
 
 		$ok = $z->execute([$yeni, $id]);
 		if ($ok) {
-			header('Location: ../user.php?ok=1');
+			echo '<span class="alert alert-success notifi">Parolunuz dəyişdirildi</span>';
 		}
 	}
 	else {
-		header('Location: ../user.php?ok=1');
+		echo '<span class="alert alert-danger notifi">Yanlış parol daxil etmisiniz.</span>';
 	}
-
 }
